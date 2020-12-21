@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "error": {
+        "message": "User Email or password incorrect.",
+        "error_code": 512345
+    },
+    "response": {
+        "login": "failed"
+    }
+}

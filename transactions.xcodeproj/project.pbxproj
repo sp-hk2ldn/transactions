@@ -31,6 +31,12 @@
 		BDE1112B2590D4BF007278BE /* TxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111272590D4BF007278BE /* TxType.swift */; };
 		BDE1112C2590D4BF007278BE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111282590D4BF007278BE /* Transaction.swift */; };
 		BDE111322590D4DD007278BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111312590D4DD007278BE /* API.swift */; };
+		BDE1113C2590D64A007278BE /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111392590D64A007278BE /* String+Utils.swift */; };
+		BDE1113D2590D64A007278BE /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1113A2590D64A007278BE /* Date+Utils.swift */; };
+		BDE1113E2590D64A007278BE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1113B2590D64A007278BE /* UIColor+Utils.swift */; };
+		BDE111482590D686007278BE /* failedLogin.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111452590D686007278BE /* failedLogin.json */; };
+		BDE111492590D686007278BE /* successfulLogin.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111462590D686007278BE /* successfulLogin.json */; };
+		BDE1114A2590D686007278BE /* txLog.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111472590D686007278BE /* txLog.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +87,12 @@
 		BDE111272590D4BF007278BE /* TxType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxType.swift; sourceTree = "<group>"; };
 		BDE111282590D4BF007278BE /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		BDE111312590D4DD007278BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BDE111392590D64A007278BE /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		BDE1113A2590D64A007278BE /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		BDE1113B2590D64A007278BE /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		BDE111452590D686007278BE /* failedLogin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failedLogin.json; sourceTree = "<group>"; };
+		BDE111462590D686007278BE /* successfulLogin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successfulLogin.json; sourceTree = "<group>"; };
+		BDE111472590D686007278BE /* txLog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = txLog.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +145,10 @@
 			children = (
 				BDE110C82590D03C007278BE /* Resources */,
 				BDE111302590D4DD007278BE /* Service */,
-				BDE110C72590D037007278BE /* Flows */,
 				BDE110C62590D031007278BE /* Navigation */,
-				BDE110CA2590D055007278BE /* Model */,
+				BDE110C72590D037007278BE /* Flows */,
 				BDE110C92590D04B007278BE /* Extensions */,
+				BDE110CA2590D055007278BE /* Model */,
 				BDE110932590CF88007278BE /* AppDelegate.swift */,
 				BDE110952590CF88007278BE /* SceneDelegate.swift */,
 				BDE1109C2590CF88007278BE /* Assets.xcassets */,
@@ -179,8 +191,8 @@
 		BDE110C72590D037007278BE /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				BDE111062590D41E007278BE /* TransactLog */,
 				BDE110E62590D1CC007278BE /* Landing */,
+				BDE111062590D41E007278BE /* TransactLog */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -188,6 +200,9 @@
 		BDE110C82590D03C007278BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BDE111452590D686007278BE /* failedLogin.json */,
+				BDE111462590D686007278BE /* successfulLogin.json */,
+				BDE111472590D686007278BE /* txLog.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -195,6 +210,9 @@
 		BDE110C92590D04B007278BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1113A2590D64A007278BE /* Date+Utils.swift */,
+				BDE111392590D64A007278BE /* String+Utils.swift */,
+				BDE1113B2590D64A007278BE /* UIColor+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,8 +257,8 @@
 		BDE111062590D41E007278BE /* TransactLog */ = {
 			isa = PBXGroup;
 			children = (
-				BDE111112590D458007278BE /* ViewModel */,
 				BDE111072590D425007278BE /* Views */,
+				BDE111112590D458007278BE /* ViewModel */,
 			);
 			path = TransactLog;
 			sourceTree = "<group>";
@@ -377,8 +395,11 @@
 			files = (
 				BDE110EE2590D1E5007278BE /* Landing.storyboard in Resources */,
 				BDE110A02590CF88007278BE /* LaunchScreen.storyboard in Resources */,
+				BDE111482590D686007278BE /* failedLogin.json in Resources */,
 				BDE1109D2590CF88007278BE /* Assets.xcassets in Resources */,
+				BDE1114A2590D686007278BE /* txLog.json in Resources */,
 				BDE1110B2590D432007278BE /* TransactLog.storyboard in Resources */,
+				BDE111492590D686007278BE /* successfulLogin.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +425,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE110942590CF88007278BE /* AppDelegate.swift in Sources */,
+				BDE1113D2590D64A007278BE /* Date+Utils.swift in Sources */,
+				BDE1113C2590D64A007278BE /* String+Utils.swift in Sources */,
 				BDE110962590CF88007278BE /* SceneDelegate.swift in Sources */,
 				BDE1110D2590D432007278BE /* TransactLogCell.swift in Sources */,
 				BDE110D82590D17D007278BE /* Coordinator.swift in Sources */,
@@ -419,6 +442,7 @@
 				BDE110DD2590D182007278BE /* Storyboarded.swift in Sources */,
 				BDE111322590D4DD007278BE /* API.swift in Sources */,
 				BDE1112C2590D4BF007278BE /* Transaction.swift in Sources */,
+				BDE1113E2590D64A007278BE /* UIColor+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,30 @@
+{
+    "success": true,
+    "error": null,
+    "response": {
+        "transactions": [{
+            "txdate": "2020-12-14 13:30:03",
+            "amount": 5.99,
+            "currency": "$",
+            "dr_cr": "DEBIT"
+        }, {
+            "txdate": "2020-11-14 10:10:03",
+            "amount": 105.45,
+            "currency": "€",
+            "dr_cr": "DEBIT"
+        }, {
+            "txdate": "2020-10-14 10:10:03",
+            "amount": 0.45,
+            "currency": "£",
+            "dr_cr": "DEBIT"
+        }, {
+            "txdate": "2020-10-14 10:10:03",
+            "amount": 10000.45,
+            "currency": "$",
+            "dr_cr": "DEBIT"
+        }]
+    }
+}
+
+
+
