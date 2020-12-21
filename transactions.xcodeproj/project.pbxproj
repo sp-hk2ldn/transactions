@@ -11,13 +11,31 @@
 		BDE110962590CF88007278BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110952590CF88007278BE /* SceneDelegate.swift */; };
 		BDE1109D2590CF88007278BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1109C2590CF88007278BE /* Assets.xcassets */; };
 		BDE110A02590CF88007278BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1109E2590CF88007278BE /* LaunchScreen.storyboard */; };
-		BDE110AB2590CF89007278BE /* transactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110AA2590CF89007278BE /* transactionsTests.swift */; };
 		BDE110B62590CF89007278BE /* transactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110B52590CF89007278BE /* transactionsUITests.swift */; };
 		BDE110D82590D17D007278BE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110D72590D17D007278BE /* Coordinator.swift */; };
 		BDE110DD2590D182007278BE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110DC2590D182007278BE /* Storyboarded.swift */; };
 		BDE110E22590D186007278BE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110E12590D186007278BE /* MainCoordinator.swift */; };
 		BDE110E92590D1E0007278BE /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110E82590D1E0007278BE /* LandingViewController.swift */; };
 		BDE110EE2590D1E5007278BE /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE110ED2590D1E5007278BE /* Landing.storyboard */; };
+		BDE110FA2590D32B007278BE /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110F92590D32B007278BE /* LandingViewModel.swift */; };
+		BDE1110B2590D432007278BE /* TransactLog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE111082590D432007278BE /* TransactLog.storyboard */; };
+		BDE1110C2590D432007278BE /* TransactLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111092590D432007278BE /* TransactLogViewController.swift */; };
+		BDE1110D2590D432007278BE /* TransactLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1110A2590D432007278BE /* TransactLogCell.swift */; };
+		BDE111142590D458007278BE /* TransactLogDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111122590D458007278BE /* TransactLogDataSource.swift */; };
+		BDE111152590D458007278BE /* TransactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111132590D458007278BE /* TransactViewModel.swift */; };
+		BDE1111C2590D470007278BE /* LandingVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111192590D470007278BE /* LandingVMTests.swift */; };
+		BDE1111E2590D470007278BE /* TransActLogVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1111B2590D470007278BE /* TransActLogVMTests.swift */; };
+		BDE111292590D4BF007278BE /* TxCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111252590D4BF007278BE /* TxCurrency.swift */; };
+		BDE1112A2590D4BF007278BE /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111262590D4BF007278BE /* LoginResponse.swift */; };
+		BDE1112B2590D4BF007278BE /* TxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111272590D4BF007278BE /* TxType.swift */; };
+		BDE1112C2590D4BF007278BE /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111282590D4BF007278BE /* Transaction.swift */; };
+		BDE111322590D4DD007278BE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111312590D4DD007278BE /* API.swift */; };
+		BDE1113C2590D64A007278BE /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE111392590D64A007278BE /* String+Utils.swift */; };
+		BDE1113D2590D64A007278BE /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1113A2590D64A007278BE /* Date+Utils.swift */; };
+		BDE1113E2590D64A007278BE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1113B2590D64A007278BE /* UIColor+Utils.swift */; };
+		BDE111482590D686007278BE /* failedLogin.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111452590D686007278BE /* failedLogin.json */; };
+		BDE111492590D686007278BE /* successfulLogin.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111462590D686007278BE /* successfulLogin.json */; };
+		BDE1114A2590D686007278BE /* txLog.json in Resources */ = {isa = PBXBuildFile; fileRef = BDE111472590D686007278BE /* txLog.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +63,6 @@
 		BDE1109F2590CF88007278BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDE110A12590CF88007278BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE110A62590CF89007278BE /* transactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transactionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDE110AA2590CF89007278BE /* transactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionsTests.swift; sourceTree = "<group>"; };
 		BDE110AC2590CF89007278BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE110B12590CF89007278BE /* transactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transactionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE110B52590CF89007278BE /* transactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionsUITests.swift; sourceTree = "<group>"; };
@@ -55,6 +72,25 @@
 		BDE110E12590D186007278BE /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		BDE110E82590D1E0007278BE /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		BDE110ED2590D1E5007278BE /* Landing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		BDE110F92590D32B007278BE /* LandingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+		BDE111082590D432007278BE /* TransactLog.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TransactLog.storyboard; sourceTree = "<group>"; };
+		BDE111092590D432007278BE /* TransactLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactLogViewController.swift; sourceTree = "<group>"; };
+		BDE1110A2590D432007278BE /* TransactLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactLogCell.swift; sourceTree = "<group>"; };
+		BDE111122590D458007278BE /* TransactLogDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactLogDataSource.swift; sourceTree = "<group>"; };
+		BDE111132590D458007278BE /* TransactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactViewModel.swift; sourceTree = "<group>"; };
+		BDE111192590D470007278BE /* LandingVMTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVMTests.swift; sourceTree = "<group>"; };
+		BDE1111B2590D470007278BE /* TransActLogVMTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransActLogVMTests.swift; sourceTree = "<group>"; };
+		BDE111252590D4BF007278BE /* TxCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxCurrency.swift; sourceTree = "<group>"; };
+		BDE111262590D4BF007278BE /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		BDE111272590D4BF007278BE /* TxType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxType.swift; sourceTree = "<group>"; };
+		BDE111282590D4BF007278BE /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BDE111312590D4DD007278BE /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BDE111392590D64A007278BE /* String+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		BDE1113A2590D64A007278BE /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		BDE1113B2590D64A007278BE /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		BDE111452590D686007278BE /* failedLogin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failedLogin.json; sourceTree = "<group>"; };
+		BDE111462590D686007278BE /* successfulLogin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successfulLogin.json; sourceTree = "<group>"; };
+		BDE111472590D686007278BE /* txLog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = txLog.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				BDE110C82590D03C007278BE /* Resources */,
-				BDE110C72590D037007278BE /* Flows */,
+				BDE111302590D4DD007278BE /* Service */,
 				BDE110C62590D031007278BE /* Navigation */,
-				BDE110CA2590D055007278BE /* Model */,
+				BDE110C72590D037007278BE /* Flows */,
 				BDE110C92590D04B007278BE /* Extensions */,
+				BDE110CA2590D055007278BE /* Model */,
 				BDE110932590CF88007278BE /* AppDelegate.swift */,
 				BDE110952590CF88007278BE /* SceneDelegate.swift */,
 				BDE1109C2590CF88007278BE /* Assets.xcassets */,
@@ -122,7 +159,8 @@
 		BDE110A92590CF89007278BE /* transactionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BDE110AA2590CF89007278BE /* transactionsTests.swift */,
+				BDE111192590D470007278BE /* LandingVMTests.swift */,
+				BDE1111B2590D470007278BE /* TransActLogVMTests.swift */,
 				BDE110AC2590CF89007278BE /* Info.plist */,
 			);
 			path = transactionsTests;
@@ -151,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				BDE110E62590D1CC007278BE /* Landing */,
+				BDE111062590D41E007278BE /* TransactLog */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -158,6 +197,9 @@
 		BDE110C82590D03C007278BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BDE111452590D686007278BE /* failedLogin.json */,
+				BDE111462590D686007278BE /* successfulLogin.json */,
+				BDE111472590D686007278BE /* txLog.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,6 +207,9 @@
 		BDE110C92590D04B007278BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BDE1113A2590D64A007278BE /* Date+Utils.swift */,
+				BDE111392590D64A007278BE /* String+Utils.swift */,
+				BDE1113B2590D64A007278BE /* UIColor+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -172,6 +217,10 @@
 		BDE110CA2590D055007278BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDE111262590D4BF007278BE /* LoginResponse.swift */,
+				BDE111282590D4BF007278BE /* Transaction.swift */,
+				BDE111252590D4BF007278BE /* TxCurrency.swift */,
+				BDE111272590D4BF007278BE /* TxType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +228,7 @@
 		BDE110E62590D1CC007278BE /* Landing */ = {
 			isa = PBXGroup;
 			children = (
+				BDE110F82590D325007278BE /* ViewModel */,
 				BDE110E72590D1D4007278BE /* Views */,
 			);
 			path = Landing;
@@ -191,6 +241,50 @@
 				BDE110ED2590D1E5007278BE /* Landing.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BDE110F82590D325007278BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDE110F92590D32B007278BE /* LandingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDE111062590D41E007278BE /* TransactLog */ = {
+			isa = PBXGroup;
+			children = (
+				BDE111072590D425007278BE /* Views */,
+				BDE111112590D458007278BE /* ViewModel */,
+			);
+			path = TransactLog;
+			sourceTree = "<group>";
+		};
+		BDE111072590D425007278BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDE111082590D432007278BE /* TransactLog.storyboard */,
+				BDE1110A2590D432007278BE /* TransactLogCell.swift */,
+				BDE111092590D432007278BE /* TransactLogViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDE111112590D458007278BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDE111122590D458007278BE /* TransactLogDataSource.swift */,
+				BDE111132590D458007278BE /* TransactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BDE111302590D4DD007278BE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BDE111312590D4DD007278BE /* API.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +392,11 @@
 			files = (
 				BDE110EE2590D1E5007278BE /* Landing.storyboard in Resources */,
 				BDE110A02590CF88007278BE /* LaunchScreen.storyboard in Resources */,
+				BDE111482590D686007278BE /* failedLogin.json in Resources */,
 				BDE1109D2590CF88007278BE /* Assets.xcassets in Resources */,
+				BDE1114A2590D686007278BE /* txLog.json in Resources */,
+				BDE1110B2590D432007278BE /* TransactLog.storyboard in Resources */,
+				BDE111492590D686007278BE /* successfulLogin.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +422,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE110942590CF88007278BE /* AppDelegate.swift in Sources */,
+				BDE1113D2590D64A007278BE /* Date+Utils.swift in Sources */,
+				BDE1113C2590D64A007278BE /* String+Utils.swift in Sources */,
 				BDE110962590CF88007278BE /* SceneDelegate.swift in Sources */,
+				BDE1110D2590D432007278BE /* TransactLogCell.swift in Sources */,
 				BDE110D82590D17D007278BE /* Coordinator.swift in Sources */,
+				BDE1110C2590D432007278BE /* TransactLogViewController.swift in Sources */,
 				BDE110E22590D186007278BE /* MainCoordinator.swift in Sources */,
+				BDE1112A2590D4BF007278BE /* LoginResponse.swift in Sources */,
+				BDE111292590D4BF007278BE /* TxCurrency.swift in Sources */,
 				BDE110E92590D1E0007278BE /* LandingViewController.swift in Sources */,
+				BDE1112B2590D4BF007278BE /* TxType.swift in Sources */,
+				BDE111152590D458007278BE /* TransactViewModel.swift in Sources */,
+				BDE111142590D458007278BE /* TransactLogDataSource.swift in Sources */,
+				BDE110FA2590D32B007278BE /* LandingViewModel.swift in Sources */,
 				BDE110DD2590D182007278BE /* Storyboarded.swift in Sources */,
+				BDE111322590D4DD007278BE /* API.swift in Sources */,
+				BDE1112C2590D4BF007278BE /* Transaction.swift in Sources */,
+				BDE1113E2590D64A007278BE /* UIColor+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +447,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE110AB2590CF89007278BE /* transactionsTests.swift in Sources */,
+				BDE1111C2590D470007278BE /* LandingVMTests.swift in Sources */,
+				BDE1111E2590D470007278BE /* TransActLogVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
