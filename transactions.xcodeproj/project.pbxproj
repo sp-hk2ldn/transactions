@@ -18,6 +18,7 @@
 		BDE110E22590D186007278BE /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110E12590D186007278BE /* MainCoordinator.swift */; };
 		BDE110E92590D1E0007278BE /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110E82590D1E0007278BE /* LandingViewController.swift */; };
 		BDE110EE2590D1E5007278BE /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE110ED2590D1E5007278BE /* Landing.storyboard */; };
+		BDE110FA2590D32B007278BE /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110F92590D32B007278BE /* LandingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		BDE110E12590D186007278BE /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		BDE110E82590D1E0007278BE /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		BDE110ED2590D1E5007278BE /* Landing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		BDE110F92590D32B007278BE /* LandingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		BDE110E62590D1CC007278BE /* Landing */ = {
 			isa = PBXGroup;
 			children = (
+				BDE110F82590D325007278BE /* ViewModel */,
 				BDE110E72590D1D4007278BE /* Views */,
 			);
 			path = Landing;
@@ -191,6 +194,14 @@
 				BDE110ED2590D1E5007278BE /* Landing.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BDE110F82590D325007278BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDE110F92590D32B007278BE /* LandingViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +339,7 @@
 				BDE110D82590D17D007278BE /* Coordinator.swift in Sources */,
 				BDE110E22590D186007278BE /* MainCoordinator.swift in Sources */,
 				BDE110E92590D1E0007278BE /* LandingViewController.swift in Sources */,
+				BDE110FA2590D32B007278BE /* LandingViewModel.swift in Sources */,
 				BDE110DD2590D182007278BE /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
