@@ -11,7 +11,6 @@
 		BDE110962590CF88007278BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110952590CF88007278BE /* SceneDelegate.swift */; };
 		BDE1109D2590CF88007278BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE1109C2590CF88007278BE /* Assets.xcassets */; };
 		BDE110A02590CF88007278BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1109E2590CF88007278BE /* LaunchScreen.storyboard */; };
-		BDE110AB2590CF89007278BE /* transactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110AA2590CF89007278BE /* transactionsTests.swift */; };
 		BDE110B62590CF89007278BE /* transactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110B52590CF89007278BE /* transactionsUITests.swift */; };
 		BDE110D82590D17D007278BE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110D72590D17D007278BE /* Coordinator.swift */; };
 		BDE110DD2590D182007278BE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE110DC2590D182007278BE /* Storyboarded.swift */; };
@@ -64,7 +63,6 @@
 		BDE1109F2590CF88007278BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDE110A12590CF88007278BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE110A62590CF89007278BE /* transactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transactionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDE110AA2590CF89007278BE /* transactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionsTests.swift; sourceTree = "<group>"; };
 		BDE110AC2590CF89007278BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE110B12590CF89007278BE /* transactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transactionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE110B52590CF89007278BE /* transactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transactionsUITests.swift; sourceTree = "<group>"; };
@@ -163,7 +161,6 @@
 			children = (
 				BDE111192590D470007278BE /* LandingVMTests.swift */,
 				BDE1111B2590D470007278BE /* TransActLogVMTests.swift */,
-				BDE110AA2590CF89007278BE /* transactionsTests.swift */,
 				BDE110AC2590CF89007278BE /* Info.plist */,
 			);
 			path = transactionsTests;
@@ -451,7 +448,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE1111C2590D470007278BE /* LandingVMTests.swift in Sources */,
-				BDE110AB2590CF89007278BE /* transactionsTests.swift in Sources */,
 				BDE1111E2590D470007278BE /* TransActLogVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
