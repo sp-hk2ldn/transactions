@@ -11,4 +11,5 @@ Improvements I would add if continuing:
 * The API code is ugly, I would probably make it much more generic and use Enums for the endpoints
 * Improve the JSON decoding, I find the silent fail ?? + use default value error prone
 * Make the UI not look horrible
+* probably forgot to declare a few classes final due to time constraints
 
